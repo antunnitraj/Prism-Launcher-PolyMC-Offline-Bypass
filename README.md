@@ -1,4 +1,5 @@
 # About this project
+bypass check if user has a real microsoft account linked with the launcher <br>
 ⚠️ This is for entertainment purposes only ⚠️
 # Usage
 Go in terminal and locate installation path of Prism Launcher then execute this command:
