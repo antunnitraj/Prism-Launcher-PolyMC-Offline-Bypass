@@ -5,7 +5,7 @@ Bypass check if user has a real microsoft account linked with the launcher<br>
 If you have some accounts saved then executing this script will remove them!<br>
 This is tested on PrismLauncher 6.3 and it works flawlessly
 # Usage
-Download the latest version of PrismLauncher from https://prismlauncher.org/ then go in terminal and execute this command:
+Download the latest version of PrismLauncher from https://prismlauncher.org/, install it then go in terminal and execute this command:
 ### Windows CMD:
 ```
 echo {"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": true},"type": "Offline"}],"formatVersion": 3} > %appdata%/PrismLauncher/accounts.json
