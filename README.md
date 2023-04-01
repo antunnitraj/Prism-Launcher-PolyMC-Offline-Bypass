@@ -10,10 +10,6 @@ Download the latest version of PrismLauncher from https://prismlauncher.org/, in
 ```
 echo {"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": true},"type": "Offline"}],"formatVersion": 3} > %appdata%/PrismLauncher/accounts.json
 ```
-### Windows Portable (cd to installation path) CMD:
-```
-echo {"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": true},"type": "Offline"}],"formatVersion": 3} > accounts.json
-```
 ### Linux Shell:
 ```
 echo '{"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": true},"type": "Offline"}],"formatVersion": 3}' > ~/.local/share/PrismLauncher/accounts.json
@@ -25,13 +21,20 @@ Download the latest version of PolyMC from https://polymc.org/, install it then 
 ```
 echo {"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": true},"type": "Offline"}],"formatVersion": 3} > %appdata%/PolyMC/accounts.json
 ```
+### Linux Shell:
+```
+echo '{"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": true},"type": "Offline"}],"formatVersion": 3}' > ~/.local/share/PolyMC/accounts.json
+```
+
+# Usage for Protable versions
+Download the portable version of PolyMC or Prism Launcher then execute this command in terminal:
 ### Windows Portable (cd to installation path) CMD:
 ```
 echo {"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": true},"type": "Offline"}],"formatVersion": 3} > accounts.json
 ```
-### Linux Shell:
+### Linux Portable (cd to installation path) Shell:
 ```
-echo '{"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": true},"type": "Offline"}],"formatVersion": 3}' > ~/.local/share/PolyMC/accounts.json
+echo '{"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": true},"type": "Offline"}],"formatVersion": 3}' > accounts.json
 ```
 
 After that you can create an offline account in the launcher. 
