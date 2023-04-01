@@ -26,7 +26,7 @@ echo {"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": tr
 echo '{"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": true},"type": "Offline"}],"formatVersion": 3}' > ~/.local/share/PolyMC/accounts.json
 ```
 
-# Usage for Protable versions
+# Usage for Portable versions
 Download the portable version of PolyMC or Prism Launcher then execute this command in terminal:
 ### Windows Portable (cd to installation path) CMD:
 ```
