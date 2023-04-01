@@ -1,6 +1,8 @@
 # About this project
-bypass check if user has a real microsoft account linked with the launcher <br>
+Bypass check if user has a real microsoft account linked with the launcher<br>
 ⚠️ This is for entertainment purposes only ⚠️
+# Before installation
+If you have some accounts saved then executing this script will remove them!
 # Usage
 Go in terminal and locate installation path of Prism Launcher then execute this command:
 ### Windows CMD:
@@ -13,4 +15,4 @@ echo '{"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": t
 ```
 After that you can create an offline account in the launcher. 
 # What not to do
-⚠️ Don't delete the default offline account before you create a new offline account! ⚠️
+Don't delete the default offline account before you create a new offline account!
