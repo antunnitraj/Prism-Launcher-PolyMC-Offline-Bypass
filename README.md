@@ -8,11 +8,11 @@ This is tested on PrismLauncher 6.3 and it works flawlessly
 Download the latest version of PrismLauncher from https://prismlauncher.org/, install it then go in terminal and execute this command:
 ### Windows CMD:
 ```
-echo '{"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": true},"type": "Offline"}],"formatVersion": 3}' > %appdata%/PrismLauncher/accounts.json
+echo {"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": true},"type": "Offline"}],"formatVersion": 3} > %appdata%/PrismLauncher/accounts.json
 ```
 ### Windows Portable PrismLauncher CMD (you need to be in the same directory as the installation path):
 ```
-echo '{"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": true},"type": "Offline"}],"formatVersion": 3}' > accounts.json
+echo {"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": true},"type": "Offline"}],"formatVersion": 3} > accounts.json
 ```
 ### Linux Shell:
 ```
