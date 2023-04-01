@@ -10,7 +10,7 @@ Download the latest version of PrismLauncher from https://prismlauncher.org/, in
 ```
 echo {"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": true},"type": "Offline"}],"formatVersion": 3} > %appdata%/PrismLauncher/accounts.json
 ```
-### Windows Portable PrismLauncher (cd to installation path) CMD:
+### Windows Portable (cd to installation path) CMD:
 ```
 echo {"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": true},"type": "Offline"}],"formatVersion": 3} > accounts.json
 ```
@@ -25,7 +25,7 @@ Download the latest version of PolyMC from https://polymc.org/, install it then 
 ```
 echo {"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": true},"type": "Offline"}],"formatVersion": 3} > %appdata%/PolyMC/accounts.json
 ```
-### Windows Portable PolyMC (cd to installation path) CMD:
+### Windows Portable (cd to installation path) CMD:
 ```
 echo {"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": true},"type": "Offline"}],"formatVersion": 3} > accounts.json
 ```
