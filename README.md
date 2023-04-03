@@ -36,8 +36,8 @@ echo {"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": tr
 ```
 echo '{"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": true},"type": "Offline"}],"formatVersion": 3}' > accounts.json
 ```
-
-After that you can create an offline account in the launcher. 
+# How to use
+Create an offline account in the launcher and enjoy!
 # What not to do
 Don't delete the default offline account before you create a new offline account!
 
