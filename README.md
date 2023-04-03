@@ -40,3 +40,16 @@ echo '{"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": t
 After that you can create an offline account in the launcher. 
 # What not to do
 Don't delete the default offline account before you create a new offline account!
+
+# BRO, I DON'T TRUST YOUR SCRIPTS!
+Ok, if you know how to use a computer then there is an easy way. There is a file in repo called "accounts.json" and you need to download it to this place:
+### Prism Launcher
+* Windows: `%appdata%/PrismLauncher/`
+* Linux: `~/.local/share/PrismLauncher/`
+
+### PolyMC
+* Windows: `%appdata%/PolyMC/`
+* Linux:  `~/.local/share/PolyMC/`
+
+### Portable
+In the root directory of the installation... bruh
