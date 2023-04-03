@@ -52,4 +52,4 @@ There is a file in repo called "accounts.json" [here](https://raw.githubusercont
 * Linux:  `~/.local/share/PolyMC/`
 
 ### Portable
-In the root directory of the installation... bruh
+In the root directory of the installation
