@@ -16,7 +16,7 @@ echo '{"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": t
 ```
 ### Linux Shell (flatpak):
 ```
-echo '{"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": true},"type": "Offline"}],"formatVersion": 3}' > ~/.var/app/org.prismlauncher.PrismLauncher/accounts.json
+echo '{"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": true},"type": "Offline"}],"formatVersion": 3}' > ~/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/accounts.json
 ```
 
 # Usage for PolyMC
@@ -31,7 +31,7 @@ echo '{"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": t
 ```
 ### Linux Shell (flatpak):
 ```
-echo '{"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": true},"type": "Offline"}],"formatVersion": 3}' > ~/.var/app/org.polymc.PolyMC/accounts.json
+echo '{"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": true},"type": "Offline"}],"formatVersion": 3}' > ~/.var/app/org.polymc.PolyMC/data/PolyMC/accounts.json
 ```
 
 # Usage for Portable versions
@@ -54,12 +54,12 @@ There is a file in repo called "accounts.json" [here](https://raw.githubusercont
 ### Prism Launcher
 * Windows: `%appdata%/PrismLauncher/`
 * Linux: `~/.local/share/PrismLauncher/`
-* Linux (flatpak): `~/.var/app/org.prismlauncher.PrismLauncher/`
+* Linux (flatpak): `~/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/`
 
 ### PolyMC
 * Windows: `%appdata%/PolyMC/`
 * Linux:  `~/.local/share/PolyMC/`
-* Linux (flatpak): `~/.var/app/org.polymc.PolyMC/`
+* Linux (flatpak): `~/.var/app/org.polymc.PolyMC/data/PolyMC/`
 
 ### Portable
 In the root directory of the installation
