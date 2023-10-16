@@ -25,6 +25,10 @@ echo '{"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": t
 ```
 echo '{"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": true},"type": "Offline"}],"formatVersion": 3}' > ~/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/accounts.json
 ```
+### macOS
+```
+echo '{"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": true},"type": "Offline"}],"formatVersion": 3}' > ~/Library/Application\ Support/PrismLauncher/accounts.json
+```
 
 # Usage for PolyMC
 Download the latest version of PolyMC from https://polymc.org/, install it, go through the quick setup, close it, then go in terminal and execute this command:
@@ -39,6 +43,10 @@ echo '{"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": t
 ### Linux Shell (flatpak):
 ```
 echo '{"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": true},"type": "Offline"}],"formatVersion": 3}' > ~/.var/app/org.polymc.PolyMC/data/PolyMC/accounts.json
+```
+### macOS
+```
+echo '{"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": true},"type": "Offline"}],"formatVersion": 3}' > ~/Library/Application\ Support/PolyMC/accounts.json
 ```
 
 # Usage for Portable versions
@@ -58,11 +66,13 @@ There is a file in repo called "accounts.json" [here](https://raw.githubusercont
 * Windows: `%appdata%/PrismLauncher/`
 * Linux: `~/.local/share/PrismLauncher/`
 * Linux (flatpak): `~/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/`
+* macOS: `~/Library/Application\ Support/PrismLauncher/`
 
 ### PolyMC
 * Windows: `%appdata%/PolyMC/`
 * Linux:  `~/.local/share/PolyMC/`
 * Linux (flatpak): `~/.var/app/org.polymc.PolyMC/data/PolyMC/`
+* macOS: `~/Library/Application\ Support/PolyMC/`
 
 ### Portable
 In the root directory of the installation
