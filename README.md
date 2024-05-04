@@ -2,6 +2,9 @@
 Bypass check if user has a real microsoft account linked with the launcher<br>
 ⚠️ This is for entertainment purposes only ⚠️
 
+# These launchers are too complicated for me :(
+You can try my other project **Offline Minecraft Launcher** [here](https://github.com/antunnitraj/OfflineMinecraftLauncher)
+
 # Before installation
 If you have some accounts saved then executing this script will remove them!
 
