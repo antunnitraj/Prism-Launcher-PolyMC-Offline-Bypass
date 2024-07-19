@@ -11,7 +11,7 @@ If you have some accounts saved then executing this script will remove them!
 # How to use
 - Install Prism Launcher or PolyMC
 - Go through the quick setup
-- Execute the command for the appropriate bypass (see below)
+- Execute the command for the appropriate bypass (see [below](#usage-for-prism-launcher))
 - Create an offline account
 - Delete the "No Profile" account
 - Set the newly created account as the default
@@ -76,7 +76,7 @@ echo '{"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": t
 ```
 
 # Manual Installation
-There is a file in the repo called "accounts.json" [here](https://raw.githubusercontent.com/antunnitraj/Prism-Launcher-PolyMC-Offline-Bypass/main/accounts.json) and you need to download it to this path:
+There is a file in the repository called [accounts.json](accounts.json) and you need to download it to this path:
 ### Prism Launcher
 * Windows: `%appdata%/PrismLauncher/`
 * Linux: `~/.local/share/PrismLauncher/`
@@ -90,4 +90,4 @@ There is a file in the repo called "accounts.json" [here](https://raw.githubuser
 * macOS: `~/Library/Application\ Support/PolyMC/`
 
 ### Portable
-In the root directory of the installation
+In the root directory of the launcher
